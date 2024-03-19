@@ -1,0 +1,21 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "scraper": "tsc && node dist/scraper.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "puppeteer": "^22.5.0",
+    "puppeteer-cluster": "^0.23.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "undici-types": "^6.9.0"
+  }
+}
