@@ -14,7 +14,6 @@ export async function initializeCluster(): Promise<Cluster> {
     concurrency: Cluster.CONCURRENCY_PAGE,
     maxConcurrency: 100,
     puppeteerOptions: {
-      headless: false,
       userDataDir: './tmp',
     },
   });

@@ -1,1 +1,1 @@
-To run this up you will need to run npm install and after that npm run scraper
+To run this up you will need to run npm install and after that npm run scraper after program finishes there should be product.json file with all the information
